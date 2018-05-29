@@ -24,7 +24,7 @@
     <span>管理员列表</span>
 
 
-            <button class="layui-btn" style="float: right;height: 28px;line-height: 28px;text-align: center;padding: 0 13px;" data-method="notice" >添加用户</button>
+            <button class="layui-btn" style="float: right;height: 28px;line-height: 28px;text-align: center;padding: 0 13px;" data-method="notice" onclick="add()">添加用户</button>
 
 
 
@@ -50,12 +50,12 @@
         <td>{$vo.id}</td>
         <td>{$vo.username}</td>
         <td>{$vo.truename}</td>
-        <td>{$vo.gid}</td>
+        <td>{:isset($data['groups'][$vo.gid])?$data['groups'][$vo.gid]['title']:''}</td>
         <td>{$vo.status==0?'正常':'<span style="color: red">禁用</span>'}</td>
         <td>{:date('Y-m-d H:i:s',$vo.add_time)}</td>
         <td>
-            <button class="layui-btn layui-btn-xs">编辑</button>
-            <button class="layui-btn layui-btn-xs layui-btn-danger ">删除</button>
+            <button class="layui-btn layui-btn-xs" onclick="add({$vo.id})">编辑</button>
+            <button class="layui-btn layui-btn-xs layui-btn-danger " onclick="del({$vo.id})">删除</button>
         </td>
     </tr>
     {/volist}
@@ -64,60 +64,38 @@
 </table>
 
 
-<script>
-    layui.use('layer', function(){ //独立版的layer无需执行这一句
-        var $ = layui.jquery, layer = layui.layer; //独立版的layer无需执行这一句
-
-        //触发事件
-        var active = {
-            setTop: function(){
-                var that = this;
-                //多窗口模式，层叠置顶
-
-            }
-           /* ,notice: function(){
-                //示范一个公告层
-                layer.open({
-                    type: 1
-                    ,title: false //不显示标题栏
-                    ,closeBtn: false
-                    ,area: '300px;'
-                    ,shade: 0.2
-                    ,id: 'LAY_layuipro' //设定一个id，防止重复弹出
-                    ,btn: ['火速围观', '残忍拒绝']
-                    ,btnAlign: 'c'
-                    ,moveType: 1 //拖拽模式，0或者1
-                    ,content: '/admins.php/admins/Admin/add'
-                    ,success: function(layero){
-                        var btn = layero.find('.layui-layer-btn');
-                        btn.find('.layui-layer-btn0').attr({
-                            href: 'http://www.layui.com/'
-                            ,target: '_blank'
-                        });
-                    }
-                });
-            }*/
-
-            ,notice:function () {
-                layer.open({
-                    type: 2,
-                    title: '添加用户',
-                    offset: 'auto',
-                    shadeClose: true,
-                    shade: 0.8,
-                    area: ['440px', '60%'],
-                    content: '/admins.php/admins/Admin/add' //iframe的url
-                });
-
-            }
-        };
-
-        $('#layerDemo .layui-btn').on('click', function(){
-            var othis = $(this), method = othis.data('method');
-            active[method] ? active[method].call(this, othis) : '';
-        });
-
+<script type="text/javascript">
+    layui.use(['layer'],function(){
+        layer = layui.layer;
+        $ = layui.jquery;
     });
+
+    // 添加编辑
+    function add(id){
+        layer.open({
+            type: 2,
+            title: id>0?'编辑管理员':'添加管理员',
+            shade: 0.3,
+            area: ['480px', '420px'],
+            content: '/admins.php/admins/Admin/add?id='+id
+        });
+    }
+
+    // 删除
+    function del(id){
+        layer.confirm('确定要删除吗？', {
+            btn: ['确定','取消']
+        }, function(){
+            $.post('/admins.php/admins/Admin/delete',{'id':id},function(res){
+                if(res.code>0){
+                    layer.alert(res.msg,{icon:2});
+                }else{
+                    layer.msg(res.msg);
+                    setTimeout(function(){window.location.reload();},1000);
+                }
+            },'json');
+        });
+    }
 </script>
 
 
