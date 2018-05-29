@@ -1,0 +1,4602 @@
+---------------------------------------------------------------
+[ 2018-05-21T13:53:30+08:00 ] 127.0.0.1 POST /admins.php/admins/Account/dologin
+[ info ] 127.0.0.1/admins.php/admins/Account/dologin [运行时间：0.062817s][吞吐率：15.92req/s] [内存消耗：1,207.39kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=f6gs6542a9gn08v7m173vf4392',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'pwd' => '123456',
+  'verifycode' => 'ufgj',
+)
+[ info ] [ RUN ] app\admins\controller\Account->dologin[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T13:53:30+08:00 ] 127.0.0.1 GET /admins.php/captcha.html?rand=0.3363699082739702
+[ info ] 127.0.0.1/admins.php/captcha.html?rand=0.3363699082739702 [运行时间：0.037481s][吞吐率：26.68req/s] [内存消耗：1,007.59kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=f6gs6542a9gn08v7m173vf4392',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.3363699082739702',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T13:53:31+08:00 ] 127.0.0.1 POST /admins.php/admins/Account/dologin
+[ info ] 127.0.0.1/admins.php/admins/Account/dologin [运行时间：0.031528s][吞吐率：31.72req/s] [内存消耗：1,207.76kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=f6gs6542a9gn08v7m173vf4392',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'pwd' => '123456',
+  'verifycode' => 'ufgj',
+)
+[ info ] [ RUN ] app\admins\controller\Account->dologin[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T13:53:31+08:00 ] 127.0.0.1 GET /admins.php/captcha.html?rand=0.6403696375979653
+[ info ] 127.0.0.1/admins.php/captcha.html?rand=0.6403696375979653 [运行时间：0.029931s][吞吐率：33.41req/s] [内存消耗：1,007.59kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=f6gs6542a9gn08v7m173vf4392',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.6403696375979653',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T13:53:31+08:00 ] 127.0.0.1 POST /admins.php/admins/Account/dologin
+[ info ] 127.0.0.1/admins.php/admins/Account/dologin [运行时间：0.031722s][吞吐率：31.52req/s] [内存消耗：1,207.76kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=f6gs6542a9gn08v7m173vf4392',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'pwd' => '123456',
+  'verifycode' => 'ufgj',
+)
+[ info ] [ RUN ] app\admins\controller\Account->dologin[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T13:53:31+08:00 ] 127.0.0.1 GET /admins.php/captcha.html?rand=0.7678641758807561
+[ info ] 127.0.0.1/admins.php/captcha.html?rand=0.7678641758807561 [运行时间：0.022275s][吞吐率：44.89req/s] [内存消耗：1,007.60kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=f6gs6542a9gn08v7m173vf4392',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.7678641758807561',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T13:53:32+08:00 ] 127.0.0.1 POST /admins.php/admins/Account/dologin
+[ info ] 127.0.0.1/admins.php/admins/Account/dologin [运行时间：0.035322s][吞吐率：28.31req/s] [内存消耗：1,207.76kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=f6gs6542a9gn08v7m173vf4392',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'pwd' => '123456',
+  'verifycode' => 'ufgj',
+)
+[ info ] [ RUN ] app\admins\controller\Account->dologin[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T13:53:32+08:00 ] 127.0.0.1 GET /admins.php/captcha.html?rand=0.8915770954810522
+[ info ] 127.0.0.1/admins.php/captcha.html?rand=0.8915770954810522 [运行时间：0.031582s][吞吐率：31.66req/s] [内存消耗：1,007.59kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=f6gs6542a9gn08v7m173vf4392',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.8915770954810522',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T13:53:38+08:00 ] 127.0.0.1 POST /admins.php/admins/Account/dologin
+[ info ] 127.0.0.1/admins.php/admins/Account/dologin [运行时间：0.120372s][吞吐率：8.31req/s] [内存消耗：1,845.02kb] [文件加载：42]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=f6gs6542a9gn08v7m173vf4392',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'pwd' => '123456',
+  'verifycode' => 'bwby',
+)
+[ info ] [ RUN ] app\admins\controller\Account->dologin[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018797s ] mysql:host=127.0.0.1;dbname=video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admins` [ RunTime:0.036651s ]
+[ sql ] [ SQL ] SELECT * FROM `admins` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.002213s ]
+---------------------------------------------------------------
+[ 2018-05-21T13:53:39+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.066912s][吞吐率：14.95req/s] [内存消耗：992.21kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=f6gs6542a9gn08v7m173vf4392',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:26:13+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.061905s][吞吐率：16.15req/s] [内存消耗：1,235.31kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:26:13+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.038771s][吞吐率：25.79req/s] [内存消耗：1,006.23kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:26:22+08:00 ] 127.0.0.1 POST /admins.php/admins/Account/dologin
+[ info ] 127.0.0.1/admins.php/admins/Account/dologin [运行时间：0.090477s][吞吐率：11.05req/s] [内存消耗：1,844.93kb] [文件加载：42]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=h7uu3rvktfsou384m7shp350n0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'pwd' => '123456',
+  'verifycode' => '7fx8',
+)
+[ info ] [ RUN ] app\admins\controller\Account->dologin[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011265s ] mysql:host=127.0.0.1;dbname=video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admins` [ RunTime:0.034179s ]
+[ sql ] [ SQL ] SELECT * FROM `admins` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2018-05-21T15:26:23+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.060872s][吞吐率：16.43req/s] [内存消耗：1,177.43kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=h7uu3rvktfsou384m7shp350n0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:27:47+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.034714s][吞吐率：28.81req/s] [内存消耗：1,177.27kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:27:48+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.032391s][吞吐率：30.87req/s] [内存消耗：1,177.27kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:27:50+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.036873s][吞吐率：27.12req/s] [内存消耗：1,176.95kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:41:59+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.047627s][吞吐率：21.00req/s] [内存消耗：1,157.31kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:41:59+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.034614s][吞吐率：28.89req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:41:59+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.037204s][吞吐率：26.88req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:00+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.037193s][吞吐率：26.89req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:00+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.031352s][吞吐率：31.90req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:00+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.033344s][吞吐率：29.99req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:00+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.037493s][吞吐率：26.67req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:00+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.039909s][吞吐率：25.06req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:00+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.037832s][吞吐率：26.43req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:01+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.037529s][吞吐率：26.65req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:01+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.031973s][吞吐率：31.28req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:01+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.042647s][吞吐率：23.45req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:01+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.039307s][吞吐率：25.44req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:01+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.035611s][吞吐率：28.08req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:01+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.034288s][吞吐率：29.16req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:01+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.045230s][吞吐率：22.11req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:01+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.031616s][吞吐率：31.63req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:01+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.052397s][吞吐率：19.09req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:01+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.031241s][吞吐率：32.01req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:02+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.038946s][吞吐率：25.68req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:02+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.038189s][吞吐率：26.19req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:02+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.047913s][吞吐率：20.87req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:02+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.043557s][吞吐率：22.96req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:02+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.037097s][吞吐率：26.96req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:02+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.029728s][吞吐率：33.64req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:02+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.039548s][吞吐率：25.29req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:02+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.033104s][吞吐率：30.21req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:03+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.034834s][吞吐率：28.71req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:03+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.030764s][吞吐率：32.51req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:03+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.042720s][吞吐率：23.41req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:03+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.037926s][吞吐率：26.37req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:03+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.037328s][吞吐率：26.79req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:03+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.034987s][吞吐率：28.58req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:03+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.048839s][吞吐率：20.48req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:03+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.035219s][吞吐率：28.39req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:03+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.038054s][吞吐率：26.28req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:03+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.031375s][吞吐率：31.87req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:04+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.039687s][吞吐率：25.20req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:04+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.034127s][吞吐率：29.30req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:04+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.049334s][吞吐率：20.27req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:04+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.046227s][吞吐率：21.63req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:04+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.033959s][吞吐率：29.45req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:04+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.041665s][吞吐率：24.00req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:04+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.035999s][吞吐率：27.78req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:04+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.030545s][吞吐率：32.74req/s] [内存消耗：1,006.31kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:05+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.038122s][吞吐率：26.23req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:05+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.034952s][吞吐率：28.61req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:05+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.036800s][吞吐率：27.17req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:05+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.036780s][吞吐率：27.19req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:05+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.037703s][吞吐率：26.52req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:05+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.030960s][吞吐率：32.30req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:05+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.036135s][吞吐率：27.67req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:05+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.033074s][吞吐率：30.24req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:05+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.036427s][吞吐率：27.45req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:05+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.043092s][吞吐率：23.21req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:05+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.033652s][吞吐率：29.72req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:06+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.044784s][吞吐率：22.33req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:06+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.035453s][吞吐率：28.21req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:06+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.045191s][吞吐率：22.13req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:06+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.035393s][吞吐率：28.25req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:06+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.035471s][吞吐率：28.19req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:06+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.034617s][吞吐率：28.89req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:06+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.033477s][吞吐率：29.87req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:06+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.052027s][吞吐率：19.22req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:06+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.034567s][吞吐率：28.93req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:06+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.036585s][吞吐率：27.33req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:06+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.044283s][吞吐率：22.58req/s] [内存消耗：1,006.30kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:07+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.052912s][吞吐率：18.90req/s] [内存消耗：1,235.70kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T15:42:07+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.045881s][吞吐率：21.80req/s] [内存消耗：1,006.29kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:18:57+08:00 ] 127.0.0.1 POST /admins.php/admins/Account/dologin
+[ info ] 127.0.0.1/admins.php/admins/Account/dologin [运行时间：0.044275s][吞吐率：22.59req/s] [内存消耗：1,206.38kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'pwd' => '123456',
+  'verifycode' => 'xnkm',
+)
+[ info ] [ RUN ] app\admins\controller\Account->dologin[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:18:57+08:00 ] 127.0.0.1 GET /admins.php/captcha.html?rand=0.6084424933379147
+[ info ] 127.0.0.1/admins.php/captcha.html?rand=0.6084424933379147 [运行时间：0.029155s][吞吐率：34.30req/s] [内存消耗：1,006.55kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.6084424933379147',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:19:02+08:00 ] 127.0.0.1 POST /admins.php/admins/Account/dologin
+[ info ] 127.0.0.1/admins.php/admins/Account/dologin [运行时间：0.255688s][吞吐率：3.91req/s] [内存消耗：1,845.02kb] [文件加载：42]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'pwd' => '123456',
+  'verifycode' => '2dnm',
+)
+[ info ] [ RUN ] app\admins\controller\Account->dologin[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001371s ] mysql:host=127.0.0.1;dbname=video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admins` [ RunTime:0.209520s ]
+[ sql ] [ SQL ] SELECT * FROM `admins` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000619s ]
+---------------------------------------------------------------
+[ 2018-05-21T16:19:04+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.058783s][吞吐率：17.01req/s] [内存消耗：1,300.80kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:21:44+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.052713s][吞吐率：18.97req/s] [内存消耗：1,307.30kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:21:44+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.034317s][吞吐率：29.14req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:40:19+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.041343s][吞吐率：24.19req/s] [内存消耗：1,307.06kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:40:19+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.028369s][吞吐率：35.25req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:40:19+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.034222s][吞吐率：29.22req/s] [内存消耗：1,187.92kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:40:19+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.028419s][吞吐率：35.19req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:46:54+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.045154s][吞吐率：22.15req/s] [内存消耗：1,307.84kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:46:54+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.033361s][吞吐率：29.97req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:46:54+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/welcome
+[ info ] 127.0.0.1/admins.php/admins/Home/welcome [运行时间：0.041143s][吞吐率：24.31req/s] [内存消耗：1,300.21kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->welcome[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:46:55+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.037675s][吞吐率：26.54req/s] [内存消耗：1,188.61kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:46:55+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.041509s][吞吐率：24.09req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:46:55+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/welcome
+[ info ] 127.0.0.1/admins.php/admins/Home/welcome [运行时间：0.030833s][吞吐率：32.43req/s] [内存消耗：1,188.45kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->welcome[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:44+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.039807s][吞吐率：25.12req/s] [内存消耗：1,307.98kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:44+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.043070s][吞吐率：23.22req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:44+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/welcome
+[ info ] 127.0.0.1/admins.php/admins/Home/welcome [运行时间：0.030003s][吞吐率：33.33req/s] [内存消耗：1,188.45kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->welcome[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:45+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.036274s][吞吐率：27.57req/s] [内存消耗：1,188.60kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:45+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.028489s][吞吐率：35.10req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:45+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/welcome
+[ info ] 127.0.0.1/admins.php/admins/Home/welcome [运行时间：0.030364s][吞吐率：32.93req/s] [内存消耗：1,188.45kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->welcome[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:45+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.036316s][吞吐率：27.54req/s] [内存消耗：1,188.60kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:45+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.028614s][吞吐率：34.95req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:45+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/welcome
+[ info ] 127.0.0.1/admins.php/admins/Home/welcome [运行时间：0.033475s][吞吐率：29.87req/s] [内存消耗：1,188.45kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->welcome[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:45+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.030129s][吞吐率：33.19req/s] [内存消耗：1,188.60kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:45+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.028694s][吞吐率：34.85req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T16:48:45+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/welcome
+[ info ] 127.0.0.1/admins.php/admins/Home/welcome [运行时间：0.031904s][吞吐率：31.34req/s] [内存消耗：1,188.45kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=djijqi28hsrg8f35p9l7a2adc3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->welcome[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:04:33+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.052286s][吞吐率：19.13req/s] [内存消耗：1,158.30kb] [文件加载：34]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:04:34+08:00 ] 127.0.0.1 GET /admins.php/admins/Account/login
+[ info ] 127.0.0.1/admins.php/admins/Account/login [运行时间：0.031454s][吞吐率：31.79req/s] [内存消耗：1,236.07kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admins\controller\Account->login[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:04:34+08:00 ] 127.0.0.1 GET /admins.php/captcha.html
+[ info ] 127.0.0.1/admins.php/captcha.html [运行时间：0.031394s][吞吐率：31.85req/s] [内存消耗：1,006.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Mobile Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:07:43+08:00 ] 127.0.0.1 GET /admins.php/captcha.html?rand=0.9264308951867601
+[ info ] 127.0.0.1/admins.php/captcha.html?rand=0.9264308951867601 [运行时间：0.032984s][吞吐率：30.32req/s] [内存消耗：1,006.57kb] [文件加载：29]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'rand' => '0.9264308951867601',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\phpStudy\PHPTutorial\WWW\video\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:07:47+08:00 ] 127.0.0.1 POST /admins.php/admins/Account/dologin
+[ info ] 127.0.0.1/admins.php/admins/Account/dologin [运行时间：0.086198s][吞吐率：11.60req/s] [内存消耗：1,845.02kb] [文件加载：42]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Account',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'pwd' => '123456',
+  'verifycode' => 'hzzp',
+)
+[ info ] [ RUN ] app\admins\controller\Account->dologin[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001542s ] mysql:host=127.0.0.1;dbname=video;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admins` [ RunTime:0.037164s ]
+[ sql ] [ SQL ] SELECT * FROM `admins` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[ 2018-05-21T17:07:48+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.032610s][吞吐率：30.67req/s] [内存消耗：1,188.45kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:07:48+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.030064s][吞吐率：33.26req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:07:49+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/welcome
+[ info ] 127.0.0.1/admins.php/admins/Home/welcome [运行时间：0.036450s][吞吐率：27.43req/s] [内存消耗：1,188.45kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->welcome[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:08:46+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.042494s][吞吐率：23.53req/s] [内存消耗：1,308.04kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:08:46+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.027474s][吞吐率：36.40req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:08:46+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/welcome
+[ info ] 127.0.0.1/admins.php/admins/Home/welcome [运行时间：0.036605s][吞吐率：27.32req/s] [内存消耗：1,188.45kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->welcome[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:09:20+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/index
+[ info ] 127.0.0.1/admins.php/admins/Home/index [运行时间：0.038766s][吞吐率：25.80req/s] [内存消耗：1,308.82kb] [文件加载：38]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Account/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->index[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:09:20+08:00 ] 127.0.0.1 GET /admins.php/admins/src/layui.js
+[ info ] 127.0.0.1/admins.php/admins/src/layui.js [运行时间：0.030669s][吞吐率：32.61req/s] [内存消耗：991.60kb] [文件加载：31]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'src',
+    2 => 'layui.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-21T17:09:20+08:00 ] 127.0.0.1 GET /admins.php/admins/Home/welcome
+[ info ] 127.0.0.1/admins.php/admins/Home/welcome [运行时间：0.031456s][吞吐率：31.79req/s] [内存消耗：1,188.45kb] [文件加载：36]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\video\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admins',
+    1 => 'Home',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=nu9g83u024nvsugttqmsdp4485',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admins.php/admins/Home/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admins\controller\Home->welcome[ C:\phpStudy\PHPTutorial\WWW\video\application\admins\controller\Home.php ]
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

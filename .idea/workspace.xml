@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29c1f493-7b1e-4ca5-9391-0e5a213bd744" name="默认的" comment="全部复制完以后" />
+    <list default="true" id="29c1f493-7b1e-4ca5-9391-0e5a213bd744" name="默认的" comment="全部复制完以后">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinkphp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/topthink/think-captcha/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/topthink/think-installer/.gitignore" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +101,8 @@
       <file leaf-file-name="Sysdb.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/extend/Util/data/Sysdb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -109,7 +119,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>vo</find>
+      <find>.gitignore</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\phpStudy\PHPTutorial\WWW\video1</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -139,6 +153,10 @@
         <option value="$PROJECT_DIR$/application/admins/controller/BaseAdmin.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/extend/Util/data/Sysdb.php" />
+        <option value="$PROJECT_DIR$/extend/.gitignore" />
+        <option value="$PROJECT_DIR$/runtime/.gitignore" />
+        <option value="$PROJECT_DIR$/thinkphp/.gitignore" />
+        <option value="$PROJECT_DIR$/vendor/.gitignore" />
       </list>
     </option>
   </component>
@@ -183,48 +201,51 @@
             <path>
               <item name="video1" type="b2602c69:ProjectViewProjectNode" />
               <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admins" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="extend" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="extend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Util" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="extend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Util" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="video1" type="b2602c69:ProjectViewProjectNode" />
               <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="runtime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layui" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="thinkphp" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="thinkphp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="library" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="thinkphp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="library" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="think" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="video1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="video1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -270,7 +291,7 @@
       <workItem from="1526886995339" duration="13091000" />
       <workItem from="1527042693648" duration="18581000" />
       <workItem from="1527130939948" duration="16413000" />
-      <workItem from="1527596586029" duration="778000" />
+      <workItem from="1527596586029" duration="1689000" />
     </task>
     <task id="LOCAL-00001" summary="配置完git后做的测试">
       <created>1527596963305</created>
@@ -286,15 +307,35 @@
       <option name="project" value="LOCAL" />
       <updated>1527597292590</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="全部复制完以后">
+      <created>1527597592808</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527597592808</updated>
+    </task>
+    <task id="LOCAL-00004" summary="全部复制完以后">
+      <created>1527597623705</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527597623705</updated>
+    </task>
+    <task id="LOCAL-00005" summary="全部复制完以后">
+      <created>1527597738069</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527597738069</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67982000" />
+    <option name="totallyTimeSpent" value="68893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.4997071" visible="true" weight="0.3292683" />
@@ -306,6 +347,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2208553" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -318,7 +360,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="调试" order="12" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,52 +383,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/admins/controller/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#39#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admins/controller/BaseAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admins/view/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admins/controller/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admins/view/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/admins/controller/Account.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -700,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/admins/controller/BaseAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -714,10 +702,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/extend/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/extend/Util/data/Sysdb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
