@@ -4,7 +4,7 @@ namespace app\admins\controller;
 
 use app\admins\controller\BaseAdmin;
 /**
- *菜单管理
+ *菜单管理 git版
  */
 class Menu extends BaseAdmin
 {

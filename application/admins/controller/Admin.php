@@ -6,7 +6,7 @@ use think\Controller;
 use Util\data\Sysdb;
 
 /**
- *管理员管理
+ *管理员管理git版本
  */
 class Admin extends BaseAdmin
 {
