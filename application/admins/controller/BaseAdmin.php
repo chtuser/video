@@ -12,7 +12,7 @@ class BaseAdmin extends Controller
         parent::__construct();
         $this->_admin=session('admin');
 
-        //未登陆用户不允许访问git
+        //未登陆用户不允许访问
         if(!$this->_admin){
             header('Location: /admins.php/admins/Account/login');
             exit;

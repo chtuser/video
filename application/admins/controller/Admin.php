@@ -6,18 +6,14 @@ use think\Controller;
 use Util\data\Sysdb;
 
 /**
- *管理员管理git版本
+ *管理员管理
  */
 class Admin extends BaseAdmin
 {
     //管理员列表
     public function index()
     {
-        //管理员列表
         $data['lists'] = $this->db->table('admins')->lists();
-        //加载角色
-        $data['groups'] = $this->db->table('admin_groups')->cates('gid');
-
         $this->assign('data', $data);
         return $this->fetch();
     }
@@ -25,11 +21,8 @@ class Admin extends BaseAdmin
     //添加管理员
     public function add()
     {
-        $id=(int)input('get.id');
-        //加载管理员
-        $data['item']=$this->db->table('admins')->where(array('id'=>$id))->item();
         //加载角色
-        $data['groups'] = $this->db->table('admin_groups')->cates('gid');
+        $data['groups'] = $this->db->table('admin_groups')->lists();
         $this->assign('data', $data);
         return $this->fetch();
     }
@@ -80,16 +73,4 @@ class Admin extends BaseAdmin
         }
         exit(json_encode(array('code'=>0,'msg'=>'保存成功')));
     }
-
-    //删除管理员
-    public function delete(){
-        $id=(int)input('post.id');
-        $res=$this->db->table('admins')->where(array('id'=>$id))->delete();
-        if(!$res){
-            exit(json_encode(array('code'=>1,'msg'=>'删除失败')));
-        }
-        exit(json_encode(array('code'=>0,'msg'=>'删除成功')));
-    }
-
-
 }
