@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html";i:1527234764;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html";i:1527664770;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,7 +10,13 @@
     <link rel="stylesheet" type="text/css" href="/static/plugins/layui/css/layui.css">
     <script type="text/javascript" src="/static/plugins/layui/layui.js"></script>
     <style type="text/css">
-        .header{width:100%;height:50px;line-height: 50px;background: #2e6da4;color:#ffffff;}
+        .header {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            background: #2e6da4;
+            color: #ffffff;
+        }
     </style>
 </head>
 <body class="layui-layout-body">
@@ -49,11 +55,12 @@
     <div class="layui-side layui-bg-black">
         <div class="layui-side-scroll">
             <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
-            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+            <ul class="layui-nav layui-nav-tree" lay-filter="test">
                 <li class="layui-nav-item layui-nav-itemed">
                     <a class="" href="javascript:;">管理员管理</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" onclick="menuFire(this)" src="/admins.php/admins/Admin/index">管理员列表</a></dd>
+                        <dd><a href="javascript:;" onclick="menuFire(this)"
+                               src="/admins.php/admins/Admin/index">管理员列表</a></dd>
                         <dd><a href="javascript:;">列表二</a></dd>
                         <dd><a href="javascript:;">列表三</a></dd>
                         <dd><a href="">超链接</a></dd>
@@ -62,8 +69,10 @@
                 <li class="layui-nav-item">
                     <a href="javascript:;">权限管理</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" onclick="menuFire(this)" src="/admins.php/admins/Menu/index">菜单管理</a></dd>
-                        <dd><a href="javascript:;">列表二</a></dd>
+                        <dd><a href="javascript:;" onclick="menuFire(this)" src="/admins.php/admins/Menu/index">菜单管理</a>
+                        </dd>
+                        <dd><a href="javascript:;" onclick="menuFire(this)" src="/admins.php/admins/Roles/index">角色管理</a>
+                        </dd>
                         <dd><a href="">超链接</a></dd>
                     </dl>
                 </li>
@@ -84,7 +93,8 @@
     <div class="layui-body">
         <!-- 内容主体区域 -->
         <div style="padding: 15px; height: 99%;width: 98%;">
-            <iframe src="/admins.php/admins/Home/welcome"  style="width: 100%;height: 100%;" frameborder="0" scrolling="0"></iframe>
+            <iframe src="/admins.php/admins/Home/welcome" style="width: 100%;height: 100%;" frameborder="0"
+                    scrolling="0"></iframe>
         </div>
     </div>
 
@@ -96,7 +106,7 @@
 
 <script>
     //JavaScript代码区域
-    layui.use('element', function(){
+    layui.use('element', function () {
         var element = layui.element;
         $ = layui.jquery;
 
@@ -108,9 +118,9 @@
     //菜单点击事件
     function menuFire(obj) {
         //获取url
-        var src=$(obj).attr('src');
+        var src = $(obj).attr('src');
         //设置iframe的src
-        $('iframe').attr('src',src);
+        $('iframe').attr('src', src);
     }
 </script>
 </body>

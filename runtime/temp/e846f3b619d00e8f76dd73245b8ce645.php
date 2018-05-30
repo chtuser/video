@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\admin\index.html";i:1527232683;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\admin\index.html";i:1527504189;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,9 +25,9 @@
     <span>管理员列表</span>
 
 
-            <button class="layui-btn" style="float: right;height: 28px;line-height: 28px;text-align: center;padding: 0 13px;" data-method="notice" onclick="add()">添加用户</button>
-
-
+    <button class="layui-btn" style="float: right;height: 28px;line-height: 28px;text-align: center;padding: 0 13px;"
+            data-method="notice" onclick="add()">添加用户
+    </button>
 
 
     <div></div>
@@ -66,39 +66,40 @@
 
 
 <script type="text/javascript">
-    layui.use(['layer'],function(){
+    layui.use(['layer'], function () {
         layer = layui.layer;
         $ = layui.jquery;
     });
 
     // 添加编辑
-    function add(id){
+    function add(id) {
         layer.open({
             type: 2,
-            title: id>0?'编辑管理员':'添加管理员',
+            title: id > 0 ? '编辑管理员' : '添加管理员',
             shade: 0.3,
             area: ['480px', '420px'],
-            content: '/admins.php/admins/Admin/add?id='+id
+            content: '/admins.php/admins/Admin/add?id=' + id
         });
     }
 
     // 删除
-    function del(id){
+    function del(id) {
         layer.confirm('确定要删除吗？', {
-            btn: ['确定','取消']
-        }, function(){
-            $.post('/admins.php/admins/Admin/delete',{'id':id},function(res){
-                if(res.code>0){
-                    layer.alert(res.msg,{icon:2});
-                }else{
+            btn: ['确定', '取消']
+        }, function () {
+            $.post('/admins.php/admins/Admin/delete', {'id': id}, function (res) {
+                if (res.code > 0) {
+                    layer.alert(res.msg, {icon: 2});
+                } else {
                     layer.msg(res.msg);
-                    setTimeout(function(){window.location.reload();},1000);
+                    setTimeout(function () {
+                        window.location.reload();
+                    }, 1000);
                 }
-            },'json');
+            }, 'json');
         });
     }
 </script>
-
 
 
 </body>
