@@ -26,4 +26,25 @@ class Menu extends BaseAdmin
         $this->assign('data', $data);
         return $this->fetch();
     }
+
+    //保存菜单
+    public function save(){
+        $ords=input('post.ords/a');
+        $titles=input('post.titles/a');
+        $controllers=input('post.controllers/a');
+        $methods=input('post.methods/a');
+        $ishiddens=input('post.ishiddens/a');
+        $status=input('post.status/a');
+
+        foreach ($ords as $key=>$value){
+            //新增
+            $data['ord']=$value;
+            $data['title']=$titles[$key];
+            $data['controller']=$controllers[$key];
+            $data['method']=$methods[$key];
+            $data['ishidden']=isset($ishiddens[$key]) ? 1 : 0;
+            $data['status']=isset($status[$key]) ? 1 :0 ;
+            dump($data);
+        }
+    }
 }
