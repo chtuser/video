@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:82:"C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\admin\add.html";i:1527080188;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:82:"C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\admin\add.html";i:1527134241;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,10 +9,11 @@
 </head>
 <body style="padding: 10px;">
     <form class="layui-form">
+        <input type="hidden" name="id" value="<?php echo $data['item']['id']; ?>">
         <div class="layui-form-item">
             <label class="layui-form-label">用户名</label>
             <div class="layui-input-inline">
-                <input type="text" class="layui-input" name="username">
+                <input type="text" class="layui-input" name="username" value="<?php echo $data['item']['username']; ?>" <?php echo $data['item']['id']>0?'readonly':''; ?>>
             </div>
         </div>
 
@@ -22,7 +23,7 @@
                 <select name="gid">
                     <option value=0></option>
                     <?php if(is_array($data['groups']) || $data['groups'] instanceof \think\Collection || $data['groups'] instanceof \think\Paginator): $i = 0; $__LIST__ = $data['groups'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-                    <option value="<?php echo $vo['gid']; ?>"><?php echo $vo['title']; ?></option>
+                    <option value="<?php echo $vo['gid']; ?>" <?php echo $vo['gid']==$data['item']['gid']?'selected' : ''; ?>><?php echo $vo['title']; ?></option>
                     <?php endforeach; endif; else: echo "" ;endif; ?>
                 </select>
             </div>
@@ -38,14 +39,14 @@
         <div class="layui-form-item">
             <label class="layui-form-label">姓&nbsp;&nbsp;&nbsp;&nbsp;名</label>
             <div class="layui-input-inline">
-                <input type="text" class="layui-input" name="truename">
+                <input type="text" class="layui-input" name="truename" value="<?php echo $data['item']['truename']; ?>">
             </div>
         </div>
 
         <div class="layui-form-item">
             <label class="layui-form-label">状&nbsp;&nbsp;&nbsp;&nbsp;态</label>
             <div class="layui-input-inline">
-                <input type="checkbox" lay-skin="primary" title="禁用" value="1" name="status">
+                <input type="checkbox" name="status" lay-skin="primary" title="禁用" value="1" <?php echo !empty($data['item']['status'])?'checked':''; ?>>
             </div>
         </div>
     </form>
@@ -64,6 +65,7 @@
 
         //保存管理员
         function save(){
+            var id=parseInt($('input[name="id"]').val());
             var username=$.trim($('input[name="username"]').val());
             var pwd=$.trim($('input[name="pwd"]').val());
             var gid =$('select[name="gid"]').val();
@@ -72,7 +74,7 @@
                 layer.alert('请输入用户名',{icon:2});
                 return;
             }
-            if(pwd==''){
+            if(isNaN(id) && pwd==''){
                 layer.alert('请输入密码',{icon:2});
                 return;
             }

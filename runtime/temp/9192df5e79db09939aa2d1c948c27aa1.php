@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html";i:1526991630;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"C:\phpStudy\PHPTutorial\WWW\video\public/../application/admins\view\home\index.html";i:1527234764;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -62,7 +62,7 @@
                 <li class="layui-nav-item">
                     <a href="javascript:;">权限管理</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">列表一</a></dd>
+                        <dd><a href="javascript:;" onclick="menuFire(this)" src="/admins.php/admins/Menu/index">菜单管理</a></dd>
                         <dd><a href="javascript:;">列表二</a></dd>
                         <dd><a href="">超链接</a></dd>
                     </dl>
@@ -83,7 +83,7 @@
 
     <div class="layui-body">
         <!-- 内容主体区域 -->
-        <div style="padding: 15px; height: 95%;width: 98%;">
+        <div style="padding: 15px; height: 99%;width: 98%;">
             <iframe src="/admins.php/admins/Home/welcome"  style="width: 100%;height: 100%;" frameborder="0" scrolling="0"></iframe>
         </div>
     </div>
